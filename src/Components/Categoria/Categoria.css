@@ -1,0 +1,27 @@
+.categoria{
+    width: 90%;
+    font-size: 28px;
+    padding: 32px;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+}
+
+.categoria h1{
+    font-family: fantasy;
+    font-weight: 400;
+    background: #57c278;
+    display: inline-block;
+    color: #ffff;
+    width: 220px;
+    height: 40px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.categorias{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
